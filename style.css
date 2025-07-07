@@ -38,8 +38,11 @@
 
 .text-black {
   color: black;
-  background-color: #ddd;
   padding: 0.5rem;
+}
+
+.text-background {
+  background-color: #ddd;
 }
 
 /* general styling */
