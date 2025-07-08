@@ -15,6 +15,10 @@
   flex-direction: column;
 }
 
+.flex-row {
+  display: flex;
+}
+
 .right-align {
   text-align: end;
 }
@@ -29,20 +33,24 @@
 
 /* styling classes */
 .padding-narrow {
-  padding: 1rem;
+  padding: 1rem 0.5rem;
 }
 
 .padding-wide {
-  padding: 3rem;
+  padding: 3rem 1rem;
+}
+
+.margin-after {
+  margin: 0 0 1rem 0;
 }
 
 .text-black {
   color: black;
-  padding: 0.5rem;
 }
 
 .text-background {
-  background-color: #ddd;
+  background-color: #ddddddaa;
+  border-radius: 10px;
 }
 
 /* general styling */
@@ -58,11 +66,19 @@ h1 {
   font-size: 1.1rem;
 }
 
-h2 {
+h2,
+h3 {
   font-family: "Special Elite", system-ui;
   font-weight: 400;
+}
+
+h2 {
   font-size: 2rem;
   color: white;
+}
+
+h3 {
+  font-size: 1rem;
 }
 
 h5 {
@@ -121,6 +137,7 @@ h5 {
   margin: 0 auto;
   width: 360px;
   background-color: blanchedalmond;
+  min-height: 100vh;
 }
 
 /* campaign page styling */
@@ -141,4 +158,16 @@ h5 {
 
 .love {
   background-image: url(images/språkrör.JPG);
+}
+
+.venture {
+  background-image: url(images/lisa_närbild.JPG);
+}
+
+.boda {
+  background-image: url(images/anna_bakifrån.JPG);
+}
+
+.tart {
+  background-image: url(images/lisa_kalmar_slott.JPG);
 }
